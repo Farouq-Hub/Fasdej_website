@@ -11,5 +11,13 @@
   "devDependencies": {
     "node-sass": "^6.0.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farouq-Hub/Fasdej_website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Farouq-Hub/Fasdej_website/issues"
+  },
+  "homepage": "https://github.com/Farouq-Hub/Fasdej_website#readme"
 }
