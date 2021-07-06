@@ -1,0 +1,28 @@
+#store {
+  &-a {
+    .store-info {
+      display: grid;
+      grid-template-areas: "bioimage bio bio";
+      grid-gap: 2rem;
+    }
+
+    //Grid Area
+    .bio-image {
+      grid-area: bioimage;
+      grid-gap: 2rem;
+      padding-bottom: 2rem;
+    }
+
+    .bio {
+      grid-area: bio;
+      border-left: 3px solid $main-color;
+      padding: 0.8rem;
+    }
+
+    .h4,
+    p {
+      padding-bottom: 2rem;
+      font-size: 1.8rem;
+    }
+  }
+}
