@@ -452,12 +452,10 @@ img {
       display: none; }
   #header-inner {
     height: 10rem; }
-  #home-a .specials,
   #home-b .stats,
   #home-c .process,
   #about-d .testimonials,
-  #contact-b .contact-info,
-  .items {
+  #contact-b .contact-info {
     grid-template-columns: 1fr; }
   #home-a .specials div {
     border-bottom: 1px #f4f4f4 solid;

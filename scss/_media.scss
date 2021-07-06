@@ -37,12 +37,10 @@
   }
 
   //Stack Grid Columns
-  #home-a .specials,
   #home-b .stats,
   #home-c .process,
   #about-d .testimonials,
-  #contact-b .contact-info,
-  .items {
+  #contact-b .contact-info {
     grid-template-columns: 1fr;
   }
   //Home
