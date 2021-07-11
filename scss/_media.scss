@@ -36,6 +36,10 @@
     }
   }
 
+  #home-a .specials p {
+    display: none;
+  }
+
   //Stack Grid Columns
   #home-b .stats,
   #home-c .process,
@@ -43,6 +47,12 @@
   #contact-b .contact-info {
     grid-template-columns: 1fr;
   }
+
+  #work-a .items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   //Home
   #home {
     &-a {
