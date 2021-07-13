@@ -438,11 +438,25 @@ img {
   #home-b .stats,
   #home-c .process,
   #about-d .testimonials,
-  #contact-b .contact-info {
+  #contact-b .contact-info,
+  #about-a .about-right,
+  #about-a .about-left {
     grid-template-columns: 1fr; }
   #work-a .items {
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
+  #about-a .about-left,
+  #about-a .about-right {
+    float: none;
+    width: 100%; }
+  #about-a .about-left {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  #about-a {
+    text-align: center; }
+  #about-bi .award {
+    display: grid;
+    grid-gap: 0.3rem; }
   #home-a .specials div {
     border-bottom: 1px #f4f4f4 solid;
     padding-bottom: 1rem; }
@@ -467,6 +481,9 @@ img {
       padding-bottom: 0; }
   #contact-c h1 {
     font-size: 2rem; }
+  #contact-c h3 {
+    width: "50";
+    height: "400"; }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {
