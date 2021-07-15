@@ -99,7 +99,7 @@ input[class^="btn-"]:hover {
 
 #gallery-a .gallery-item {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   box-shadow: 0 5px 10px 0;
   grid-gap: 5px;
   background: #333; }
